@@ -1,0 +1,99 @@
+{
+  "name": "sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.24",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.22",
+    "@types/slate": "0.47.9",
+    "@types/slate-react": "0.22.9",
+    "bootstrap": "^5.1.3",
+    "bootstrap3-sass": "^3.4.4",
+    "connected-react-router": "^6.9.2",
+    "customize-cra": "^1.0.0",
+    "formik": "^2.2.9",
+    "immutable": "^4.0.0",
+    "md5": "^2.3.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
+    "react-bootstrap": "^0.33.1",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-redux-toastr": "^7.6.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-auth-wrapper": "^3.0.0",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "sass": "^1.49.9",
+    "slate": "0.47.9",
+    "slate-react": "0.22.10",
+    "typescript": "^4.5.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "lint": "eslint --ext .ts,.tsx src --max-warnings 0 --fix",
+    "test": "react-scripts test",
+    "prepare": "husky install"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 100
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/react-bootstrap": "^0.32.29",
+    "@types/react-redux-toastr": "^7.6.2",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/redux-auth-wrapper": "^2.0.13",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.6",
+    "prettier": "^2.6.0",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "@typescript-eslint/no-explicit-any": "error"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint --max-warnings 0 --fix",
+    "*.{json}": "prettier --write"
+  }
+}

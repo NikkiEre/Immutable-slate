@@ -1,0 +1,54 @@
+// My variables color for app
+$custom-white:                   #FFF;
+$custom-green:                   #00C897;
+$custom-dark-green:              #019267;
+$custom-red:                     #DF0E62;
+$custom-dark-brown:              #534340;
+$custom-light-brown:             #FDF6EC;
+$custom-beige:                   #F3E9DD;
+
+// Overridden variables from bootstrap
+
+$padding-large-vertical:         15px;
+
+$brand-danger:                   $custom-red;
+
+// Default Button
+
+$btn-default-color:              $custom-white;
+$btn-default-bg:                 $custom-green;
+$btn-default-border:             $custom-dark-green;
+
+// Danger Button
+
+$btn-danger-bg:                  $custom-red;
+$btn-danger-border:              darken($custom-red, 15%);
+
+// FormControl
+
+$input-border-focus:             $custom-dark-green;
+$state-danger-text:              $custom-red;
+$state-danger-bg:                $custom-red;
+$input-border:                   $custom-dark-brown;
+
+// Button Link
+
+$link-color:                     $custom-green;
+
+// Table
+
+$table-bg:                       $custom-light-brown;
+$table-bg-hover:                 $custom-green;
+
+// ControlLabel
+
+$label_margin_bottom:            $padding-large-vertical;
+
+// Navbar
+
+$navbar-inverse-link-color:      $btn-default-color;
+$navbar-inverse-bg:              $custom-dark-brown;
+$dropdown-bg:                    $custom-dark-brown;
+$dropdown-link-hover-color:      darken($custom-white, 15%);
+$dropdown-link-hover-bg:         darken($custom-dark-brown, 5%);
+$dropdown-link-color:            $custom-white;

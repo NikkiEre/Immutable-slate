@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.register {
+
+  &__form {
+    overflow: auto;
+    text-align: center;
+  }
+
+  &__footer {
+    margin: $padding-large-vertical 0;
+    text-align: center;
+  }
+}

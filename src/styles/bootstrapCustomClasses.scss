@@ -1,0 +1,32 @@
+@import "../styles/variables";
+
+.btn-group {
+  margin: $padding-large-vertical 0;
+}
+
+.help-block {
+  color: $custom-red;
+}
+
+.table {
+  & th {
+    text-transform: uppercase;
+  };
+}
+
+.table-hover {
+  > tbody > tr:hover {
+    color: $custom-white;
+  }
+}
+
+.control-label {
+  margin-bottom: $label-margin_bottom;
+}
+
+.page-header {
+  & small {
+    color: $custom-green;
+    text-transform: capitalize;
+  }
+}

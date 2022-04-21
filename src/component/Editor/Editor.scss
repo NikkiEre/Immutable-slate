@@ -1,0 +1,22 @@
+@import "../../styles/bootstrap";
+
+.editor__field {
+  min-height: 60px;
+  max-height: 150px;
+  overflow: auto;
+  padding: $padding-base-vertical $padding-base-horizontal;
+  line-height: $line-height-base;
+  background-color: $custom-white;
+  border: 1px solid $input-border;
+  border-radius: $border-radius-base;
+
+  &_focus:focus {
+    border: 1px solid $input-border-focus;
+  }
+
+  &_error {
+    border: 1px solid $brand-danger;
+  }
+}
+
+

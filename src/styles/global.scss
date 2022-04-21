@@ -1,0 +1,23 @@
+@import "../styles/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  background-color: $custom-beige;
+  overflow-y: scroll;
+}
+
+.container__app {
+  height: 100%;
+}
+
+.container__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
