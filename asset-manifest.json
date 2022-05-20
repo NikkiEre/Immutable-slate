@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Immutable-slate/static/css/main.31002de6.css",
-    "main.js": "/Immutable-slate/static/js/main.a12e59b4.js",
+    "main.js": "/Immutable-slate/static/js/main.e89c132e.js",
     "index.html": "/Immutable-slate/index.html",
     "main.31002de6.css.map": "/Immutable-slate/static/css/main.31002de6.css.map",
-    "main.a12e59b4.js.map": "/Immutable-slate/static/js/main.a12e59b4.js.map"
+    "main.e89c132e.js.map": "/Immutable-slate/static/js/main.e89c132e.js.map"
   },
   "entrypoints": [
     "static/css/main.31002de6.css",
-    "static/js/main.a12e59b4.js"
+    "static/js/main.e89c132e.js"
   ]
 }
